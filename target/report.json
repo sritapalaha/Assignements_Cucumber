@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T07:47:33.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2036886600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login to a application",
+        "description": "",
+        "id": "sign-up;login-to-a-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 336713100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4500645900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"sritapa\" username and \"pwd011191\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sritapa\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"pwd011191\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3307701800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120389300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify user logged in successfully",
+            "match": {
+              "location": "stepDefinition.verify_user_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1504275100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on inbox link",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_inbox_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4911101200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on compose mail image",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_compose_mail_image()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5256017400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User search for recipient",
+            "match": {
+              "location": "stepDefinition.user_search_for_recipient()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126171600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters mail title",
+            "match": {
+              "location": "stepDefinition.user_enters_mail_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2500737300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on send message button",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_send_message_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3061366300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verify message has been sent successfully",
+            "match": {
+              "location": "stepDefinition.User_verify_message_has_been_sent_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33627800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on logout button",
+            "match": {
+              "location": "stepDefinition.User_clicks_on_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "sign up",
+    "description": "",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/featureSteps.feature",
+    "tags": []
+  }
+]

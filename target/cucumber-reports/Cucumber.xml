@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.701623">
+    <testcase classname="sign up" name="Login to a application" time="27.701623">
+        <system-out><![CDATA[Given User enters "sritapa" username and "pwd011191" password...............passed
+When User clicks on login button............................................passed
+Then Verify user logged in successfully.....................................passed
+Then User clicks on inbox link..............................................passed
+Then User clicks on compose mail image......................................passed
+Then User search for recipient..............................................passed
+Then User enters mail title.................................................passed
+Then User clicks on send message button.....................................passed
+Then User verify message has been sent successfully.........................passed
+Then User clicks on logout button...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
